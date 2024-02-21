@@ -12,8 +12,7 @@ export const REASONS_TO_DEPLOY = [
   'Make me proud',
   'Break a leg!',
   'This Is the Way',
-  'Strike First, Strike Hard, No Mercy!',
-  'Se quiser sim, mano.'
+  'Strike First, Strike Hard, No Mercy!'
 ]
 
 export const REASONS_TO_NOT_DEPLOY = [
