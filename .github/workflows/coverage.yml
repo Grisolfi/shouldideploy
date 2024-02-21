@@ -19,8 +19,8 @@ jobs:
         uses: actions/setup-node@v2
       - name: Install dependencies
         run: npm install
-      - name: Run tests
-        run: npm test
+      - name: Coverage
+        run: npm run test:coverage
       - name: Artifact Coverage
         uses: actions/upload-artifact@v2
         with:
